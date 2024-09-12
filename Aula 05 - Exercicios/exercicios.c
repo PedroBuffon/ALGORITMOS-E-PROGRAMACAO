@@ -41,7 +41,8 @@ int segundoExercicio()
     {
         do
         {
-            printf("Numero: %d\n", primeiroNumero +=1);
+            printf("Numero: %d\n", primeiroNumero);
+            primeiroNumero +=1;
         } while (primeiroNumero != segundoNumero);
     }
 }
@@ -61,9 +62,9 @@ int terceiroExercicio()
         printf("O segundo numero deve ser maior que o primeiro");
     }else
     {
-        for (int i = primeiroNumero; i <= segundoNumero; i++)
+        for (primeiroNumero; primeiroNumero != segundoNumero; primeiroNumero++)
         {
-            printf("Numero: %d\n", i);
+            printf("Numero: %d\n", primeiroNumero);
         }
     }
 }
