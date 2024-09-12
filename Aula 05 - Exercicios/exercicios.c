@@ -18,7 +18,8 @@ int primeiroExercicio()
     {
         while (primeiroNumero != segundoNumero)
         {
-            printf("Numero: %d\n", primeiroNumero +=1);
+            printf("Numero: %d\n", primeiroNumero);
+            primeiroNumero +=1;
         }
     }
 }
